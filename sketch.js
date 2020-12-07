@@ -62,6 +62,7 @@ function draw() {
   bob3.display();
   bob4.display();
   bob5.display();
+
   rope1.display();
   rope2.display();
   rope3.display();
@@ -77,7 +78,7 @@ function draw() {
 
 function keyPressed(){
   if(keyCode===UP_ARROW){
-    Matter.Body.applyForce(bob5.body,bob5.body.position, {x:-30,y:-25});
+     Matter.Body.applyForce(bob5.body,bob5.body.position, {x:-50,y:-40});
    // Matter.Body.translate(bob3.body,{x:50,y:-50})
   }
 }
